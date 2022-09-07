@@ -21,5 +21,5 @@ The file txt_test contains 844800 names. Test.c will process this names in exact
 
 To run the test.c on Linux Terminal. Download the files and natigate to the location of the files. Then type "gcc test.c -lm && a.out" in the Terminal.
 
-This will print out the hieght of the tree = 19. log2(844800) is 19.69
+This will print out the height of the tree = 19. log2(844800) is 19.69
 
