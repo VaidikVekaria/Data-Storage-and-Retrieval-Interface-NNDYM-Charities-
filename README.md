@@ -7,7 +7,7 @@ This Project aims to create a database system together with a Linux Terminal bas
 
 txt file contains 274 names of donars corresponding to a digit. i.e 10 Vaidik_Vekaria. Therefor 10 * 5 = $50 is amount donated by vaidik_vekaria to nndym charities.
 
-nndym.c is the core project file that contains all the functions and structures. The main{} in nndym.c will successively read the name and digit in txt file, automatically generate a unique key, create a node with all the information within the node, insert the node into the BST using the key and finally Balance the Tree. 
+nndym.c is the core project file (about 550 Lines of code) that contains all the functions and structures. The main{} in nndym.c will successively read the name and digit in txt file, automatically generate a unique key, create a node with all the information within the node, insert the node into the BST using the key and finally Balance the Tree. 
 
 After Every Node Insertion the tree is recursively balanced, therefore insertion, search, and balance operations have a runtime of O(log2(n)). This can be very help when large data is involved. 
 
